@@ -1,0 +1,11 @@
+{
+    "godotTools.editorPath.godot4": "f:\\_app\\Godot_v4.6-stable_mono_win64\\Godot_v4.6-stable_mono_win64\\Godot_v4.6-stable_mono_win64.exe",
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-dotnettools.csharp",
+    "[gdscript]": {
+        "editor.defaultFormatter": "godot-tools.godot-tools"
+    },
+    "[csharp]": {
+        "editor.defaultFormatter": "muhammad-sammy.csharp"
+    }
+}

@@ -1,0 +1,39 @@
+# Godot 4+ specific ignores
+.godot/
+
+# Mono-specific ignores
+.godot/mono/temp/
+.godot/mono/metadata/
+
+# Imported translations (automatically generated from CSV files)
+*.translation
+
+# Editor backups
+*.bak
+
+# Exported builds
+export/
+
+# VSCode specific ignores
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Rider specific ignores
+.idea/*
+*.swp
+*.swo
+*~
+
+# OS generated files
+Thumbs.db
+.DS_Store
+
+# Build files
+build/
+
+# Log files
+logs/
+*.log
