@@ -1,0 +1,58 @@
+[gd_scene format=3 uid="uid://d0aurrk0h7trj"]
+
+[ext_resource type="Script" uid="uid://djdiuwjftwpvr" path="res://Hud.cs" id="1_efote"]
+[ext_resource type="FontFile" uid="uid://bhsuwv1s3g62g" path="res://fonts/Xolonium-Regular.ttf" id="1_k5de2"]
+
+[sub_resource type="InputEventAction" id="InputEventAction_efote"]
+action = &"start_game"
+
+[sub_resource type="Shortcut" id="Shortcut_vow1y"]
+events = [SubResource("InputEventAction_efote")]
+
+[node name="HUD" type="CanvasLayer" unique_id=1870990298]
+script = ExtResource("1_efote")
+
+[node name="StartButton" type="Button" parent="." unique_id=817458809]
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -64.0
+offset_top = -49.0
+offset_right = 64.0
+offset_bottom = -183.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_fonts/font = ExtResource("1_k5de2")
+theme_override_font_sizes/font_size = 30
+shortcut = SubResource("Shortcut_vow1y")
+text = "开始游戏"
+
+[node name="ScoreLabel" type="Label" parent="." unique_id=730202262]
+offset_left = 8.0
+offset_top = 669.0
+offset_right = 53.0
+offset_bottom = 747.0
+theme_override_fonts/font = ExtResource("1_k5de2")
+theme_override_font_sizes/font_size = 30
+text = "0"
+
+[node name="Message" type="Label" parent="." unique_id=679497044]
+visible = false
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -20.0
+offset_top = 30.0
+offset_right = 20.0
+offset_bottom = 23.0
+grow_horizontal = 2
+theme_override_fonts/font = ExtResource("1_k5de2")
+theme_override_font_sizes/font_size = 30
+text = "Message"
+
+[node name="MessageTimer" type="Timer" parent="." unique_id=562415584]
+
+[connection signal="pressed" from="StartButton" to="." method="OnStartButtonPressed"]
+[connection signal="timeout" from="MessageTimer" to="." method="OnMessageTimerTimeout"]
