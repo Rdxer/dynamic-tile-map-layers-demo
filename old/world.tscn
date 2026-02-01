@@ -1,8 +1,8 @@
-[gd_scene load_steps=8 format=3 uid="uid://de7qapkqfycxl"]
+[gd_scene format=3 uid="uid://de7qapkqfycxl"]
 
-[ext_resource type="Texture2D" uid="uid://cs8h2qyuakmko" path="res://level/obstacle.png" id="2"]
-[ext_resource type="Script" path="res://level/tile_map.gd" id="2_q8fhk"]
-[ext_resource type="PackedScene" path="res://player/player.tscn" id="3"]
+[ext_resource type="Texture2D" uid="uid://cs8h2qyuakmko" path="res://old/level/obstacle.png" id="2"]
+[ext_resource type="Script" uid="uid://xpt6wowi0hq" path="res://old/level/tile_map.gd" id="2_q8fhk"]
+[ext_resource type="PackedScene" path="res://old/player/player.tscn" id="3"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_on5ov"]
 

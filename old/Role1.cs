@@ -64,12 +64,12 @@ public partial class Role1 : Sprite2D
 		var velocity = Vector2.Zero;
 		if (Input.IsActionPressed("ui_up"))
 		{
-			velocity = Vector2.Up.Rotated(Rotation) * _speed;
+			velocity = Vector2.Right.Rotated(Rotation) * _speed;
 		}
 
 		if (Input.IsActionPressed("ui_down"))
 		{
-			velocity = Vector2.Down.Rotated(Rotation) * _speed;
+			velocity = Vector2.Left.Rotated(Rotation) * _speed;
 		}
 
 		Position += velocity * (float)delta;

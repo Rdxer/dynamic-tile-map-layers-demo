@@ -20,12 +20,12 @@ CharacterBody2D. The character moves around, is affected by moving
 platforms, can jump through one-way collision platforms, etc."
 run/main_scene="uid://na0lxudmgt24"
 config/features=PackedStringArray("4.6", "C#")
-config/icon="res://icon.png"
+config/icon="res://old/icon.png"
 
 [display]
 
-window/size/viewport_width=530
-window/size/viewport_height=495
+window/size/viewport_width=480
+window/size/viewport_height=720
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
 

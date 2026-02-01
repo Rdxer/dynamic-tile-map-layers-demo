@@ -1,8 +1,8 @@
 [gd_scene format=3 uid="uid://na0lxudmgt24"]
 
-[ext_resource type="Script" uid="uid://cxdrbjrdbof1r" path="res://Main.cs" id="1_ig7tw"]
-[ext_resource type="Script" uid="uid://bl3ukd2lnycsv" path="res://Role1.cs" id="2_0xm2m"]
-[ext_resource type="Texture2D" uid="uid://cs8h2qyuakmko" path="res://level/obstacle.png" id="2_h2yge"]
+[ext_resource type="Script" uid="uid://cxdrbjrdbof1r" path="res://old/Main.cs" id="1_ig7tw"]
+[ext_resource type="Script" uid="uid://bl3ukd2lnycsv" path="res://old/Role1.cs" id="2_0xm2m"]
+[ext_resource type="Texture2D" uid="uid://cs8h2qyuakmko" path="res://old/level/obstacle.png" id="2_h2yge"]
 
 [node name="Main" type="Node2D" unique_id=1227796323]
 script = ExtResource("1_ig7tw")
